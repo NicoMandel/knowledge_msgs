@@ -27,4 +27,5 @@
 !/msg/Dataframe*
 !/msg/Point2D.msg
 !/msg/*Array*
+!/msg/Known*
 
