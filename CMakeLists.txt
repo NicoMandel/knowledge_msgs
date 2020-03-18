@@ -15,27 +15,27 @@ add_message_files(
   Object.msg
   KnownObjects.msg
   Point2D.msg
-  Point2DStamped.msg
+  # Point2DStamped.msg
   PointArray.msg
-  PathNode.msg
+  # PathNode.msg
   Array.msg
   Dataframe.msg
-  ObjectLocation.msg
-  ObjectLocationList.msg
+  # ObjectLocation.msg
+  # ObjectLocationList.msg
 )
 
 ## Generate services in the 'srv' folder
 add_service_files(
   FILES
-  GetName.srv
+  # GetName.srv
   RegisterObject.srv
-  GetDistance.srv
-  GetHolonyms.srv
-  GetLowestHyper.srv
-  GetMeronyms.srv
-  GetConnecting.srv
-  GetLexname.srv
-  GetIDs.srv
+  # GetDistance.srv
+  # GetHolonyms.srv
+  # GetLowestHyper.srv
+  # GetMeronyms.srv
+  # GetConnecting.srv
+  # GetLexname.srv
+  # GetIDs.srv
 )
 
 
